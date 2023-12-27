@@ -10,7 +10,7 @@ const Login = () => {
   const navigate = useNavigate();
 
   const handleLogin = () => {
-    if (email === 'user@example.com' && password === 'password') {
+    if (email === 'ematrix@gmail.com' && password === 'Ematrix') {
       setLoggedIn(true);
       navigate('/dashboard');
     } else {
