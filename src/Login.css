@@ -1,0 +1,51 @@
+.LoginPage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f4f4f4; 
+}
+
+.LoginBox {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.LoginBox h2 {
+  text-align: center;
+  color: #333;
+}
+
+.LoginForm {
+  margin-top: 20px;
+}
+
+.LoginForm label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+.LoginForm input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.LoginForm button {
+  background-color: #2ecc71; 
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.LoginForm button:hover {
+  background-color: #27ae60; 
+}
+

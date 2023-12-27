@@ -1,0 +1,43 @@
+.EditClientForm {
+  max-width: 400px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #fff;
+}
+
+.EditClientForm label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+.EditClientForm input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.EditClientForm button {
+  background-color: #4caf50;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.EditClientForm button:hover {
+  background-color: #45a049;
+}
+
+.Save{
+    margin: 10px;
+}
+
+.Cancel{
+    margin: 10px;
+}

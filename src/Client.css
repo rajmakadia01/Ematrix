@@ -1,0 +1,157 @@
+.ClientPage {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #f4f4f4; 
+}
+
+
+.GroupSection {
+  display: flex;
+  padding: 20px;
+}
+
+.GroupManagement {
+  flex: 1;
+  padding: 20px;
+  border-radius: 8px;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.Groups {
+  list-style: none;
+  padding: 0;
+}
+
+.GroupItem {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 10px;
+}
+
+.GroupName {
+  flex-grow: 1;
+  font-weight: bold;
+}
+
+.EditDeleteButtons {
+  display: flex;
+  margin: 10px;
+}
+
+.Edit {
+  margin-right: 5px;
+  background-color: #3498db; 
+  color: #fff;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.Delete {
+    margin-right: 5px;
+    background-color: #db2736; 
+    color: #fff;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+.EditDeleteButtons button:hover {
+  background-color: #2980b9; 
+}
+
+.GroupForm {
+  margin-top: 20px;
+}
+
+.GroupForm input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+
+.GroupForm button {
+  background-color: #2ecc71; 
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.GroupForm button:hover {
+  background-color: #27ae60; 
+}
+
+.ClientDetails {
+  flex: 2;
+  padding: 20px;
+  border-radius: 8px;
+  background-color: #fff; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 20px;
+}
+
+.AddClient{
+    padding: 10px;
+}
+
+.ClientTable {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.ClientTable th,
+.ClientTable td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: left;
+}
+
+.ClientTable th {
+  background-color: #3498db; 
+  color: #fff;
+}
+
+.Pagination {
+  margin-top: 20px;
+}
+
+.AddEditDeleteButtons {
+  margin-top: 20px;
+}
+
+.AddEditDeleteButtons button {
+  margin-right: 10px;
+  background-color: #2ecc71; 
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.AddEditDeleteButtons button:hover {
+  background-color: #27ae60;
+}
+
+.Previous{
+    padding: 10px;
+    margin: 5px
+}
+
+.Next{
+    padding: 10px;
+    margin: 5px
+}
